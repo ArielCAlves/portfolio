@@ -7,6 +7,7 @@ import projectFour from "./images/projects/game-analysis.png";
 import projectFive from "./images/projects/airbnb.png";
 import projectSix from "./images/projects/deteccao.png";
 import projectSeven from "./images/projects/relatorios.png";
+import projectEight from "./images/projects/ibm.png";
 import contactImg from "./images/contact/contato.jpg";
 import azure from "./images/infoComplementar/azure.png";
 import nasa from "./images/infoComplementar/nasa.jpg";
@@ -23,6 +24,7 @@ export {
   projectFive,
   projectSix, 
   projectSeven,
+  projectEight,
   contactImg,
   azure,
   nasa,

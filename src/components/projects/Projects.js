@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix, projectSeven} from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix,projectSeven,projectEight} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -60,6 +60,12 @@ const Projects = () => {
           des="ETL dos dados de forma automatizada para gerar relatórios por cidade e por loja e enviar para o email de cada gestor."
           src={projectSeven}          
           websiteLink="https://drive.google.com/file/d/1Bp5ciS4rwZVZN6CMcZ3usejsChwntikh/view?usp=drive_link"
+        />
+        <ProjectsCard
+          title="Maratona Behind The Code – Latin America"
+          des="Desenvolveu sistema de recomendações utilizando algoritmos avançados para Chatbot, IOT, Cloud, entre outras ferramentas a fim de auxiliar os gestores nas tomadas de decisões."
+          src={projectEight}          
+          websiteLink="https://drive.google.com/file/d/1Gm0lm_wCXwHiB6JSmg95yLGIYCfykgUk/view"
         />
       </div>
     </section>
