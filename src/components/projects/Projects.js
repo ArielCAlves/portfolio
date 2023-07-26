@@ -1,6 +1,14 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix,projectSeven,projectEight} from "../../assets/index";
+import { projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+  projectSeven,
+  projectEight,
+  projectNine} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,11 +24,18 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard
+          title="Previsão de Séries Temporais com Sazonalidade"
+          des="Utilizei dados abertos do Tesouro Nacional para prever Despesas de Custeio de Órgãos Públicos com os algoritmos Sarima e Redes Neurais LSTM (Long Short-Term Memory). A exploração inicial dos dados foi feita no notebook do Sarima, onde identifiquei as principais características antes de construir as análises que também serviram de base para construção da arquitetura da Rede Neural."
+          src={projectNine}          
+          websiteLink="https://github.com/ArielCAlves/projetos/tree/main/time_series"
+
+        />
         <ProjectsCard
           title="Segmentação de Clientes no Mercado Imobiliário"
           des="Após extração dos dados do Viva Real foi feito um tratamento para identificar clusters (grupos) de imóveis a fim de segmentá-los por perfis e também identificar as principais características que levam um imóvel a ser valorizado."
           src={projectOne}          
-          websiteLink="https://github.com/ArielCAlves/projetos"
+          websiteLink="https://github.com/ArielCAlves/projetos/tree/main/mercado-imobiliario"
 
         />
         <ProjectsCard
@@ -34,13 +49,13 @@ const Projects = () => {
           title="Webscraping"
           des="Extração de dados de todas as páginas do site de forma automatizada para construir uma tabela organizada."
           src={projectThree}          
-          websiteLink="https://github.com/ArielCAlves/projetos"
+          websiteLink="https://github.com/ArielCAlves/projetos/tree/main/scraping_book"
         />
         <ProjectsCard
           title="Análise de Dados no Mercado de Games"
           des="Exploração de dados coletados do Kaggle para transformá-los em um arquivo csv mais limpo e construir um dashboard no Power BI utilizando modelagem Star Schema."
           src={projectFour}          
-          websiteLink="https://github.com/ArielCAlves/projetos"
+          websiteLink="https://github.com/ArielCAlves/projetos/tree/main/game-analysis"
           youtubeLink="https://www.youtube.com/watch?v=ZIUCOC7wbSQ&t=3s&ab_channel=ArielCarvalho"
         />
         <ProjectsCard
