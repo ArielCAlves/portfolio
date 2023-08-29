@@ -11,7 +11,7 @@ const Education = () => {
     >
       {/* parte 1 */}
       <div>        
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[700px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Especialização em Ciência de Dados"
             subTitle="Data Science Academy"
@@ -35,7 +35,7 @@ const Education = () => {
 
       {/* parte 2 */}
       <div>       
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[700px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Engenharia de Software"
             subTitle="Instituto de Tecnologia Infnet"

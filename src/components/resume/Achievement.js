@@ -11,7 +11,7 @@ const Achievement = () => {
       className="py-6 font-titleFont flex flex-col gap-10 md:flex-row"
     >
       <div className="flex-1">        
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1200px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCardImg
             title="Microsoft Certified: Azure Data Scientist Associate (2023)"
             img={azure}

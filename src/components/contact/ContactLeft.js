@@ -16,23 +16,23 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           Cientista de Dados
         </p>
-        <p style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="text-base text-gray-400 tracking-wide">
+        <p style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="text-sm text-gray-400 tracking-wide">
         "Sou apaixonado pela experimentação e exploração, encontro inspiração na resolução de problemas complexos toda vez que mergulho em cases desafiadores. </p>
-        <p style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="text-base text-gray-400 tracking-wide">
-        Minha base sólida em soluções tecnológicas e minha habilidade em análise de dados me permitem criar inovações que unem tecnologia e uma experiência aprimorada para os clientes. Movido pela busca contínua pela excelência, meu objetivo é tomar decisões cada vez melhores embasadas na interpretabilidade dos dados."</p>
+        <p style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="text-sm text-gray-400 tracking-wide">
+        Minha sm sólida em soluções tecnológicas e minha habilidade em análise de dados me permitem criar inovações que unem tecnologia e uma experiência aprimorada para os clientes. Movido pela busca contínua pela excelência, meu objetivo é tomar decisões cada vez melhores embasadas na interpretabilidade dos dados."</p>
         
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        <p className="text-sm text-gray-400 flex items-center gap-2">
           Telefone: <span className="text-lightText">(21) 99540-6940</span>
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        <p className="text-sm text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">ariel@julioalves.adv.br</span>
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        <p className="text-sm text-gray-400 flex items-center gap-2">
           Github: <span className="text-lightText">https://github.com/ArielCAlves</span>
         </p>
       </div>
       <div className="flex flex-col gap-0">
-        <h2 className="text-base uppercase font-titleFont mb-4">Entre em contato</h2>
+        <h2 className="text-sm uppercase font-titleFont mb-4">Entre em contato</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
           <a href="https://github.com/ArielCAlves" target="_blank" rel="noopener noreferrer">
