@@ -12,6 +12,7 @@ import projectNine from "./images/projects/time_series.png";
 import contactImg from "./images/contact/contato.jpg";
 import azure from "./images/infoComplementar/azure.png";
 import nasa from "./images/infoComplementar/nasa.jpg";
+import nasa_2023 from "./images/infoComplementar/nasa_2023.png";
 import olimpiada from "./images/infoComplementar/olimpiada.jpg";
 import banner from "./images/infoComplementar/banner_canal.png";
 
@@ -30,6 +31,7 @@ export {
   contactImg,
   azure,
   nasa,
+  nasa_2023,
   olimpiada,
   banner,
 };

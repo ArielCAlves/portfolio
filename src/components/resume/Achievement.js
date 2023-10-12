@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCardImg from "./ResumeCardImg";
-import {azure, nasa, olimpiada, banner } from "../../assets/index";
+import {azure, nasa, olimpiada, banner, nasa_2023 } from "../../assets/index";
 
 const Achievement = () => {
   return (
@@ -29,7 +29,14 @@ const Achievement = () => {
         </div>
       </div>
       <div className="flex-1">        
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1200px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCardImg
+            title=" NASA - Space Challenge 2023"
+            img={nasa_2023}
+            result="2023"
+            des="Deep Learning aplicado à Astrofísica, mais precisamente a estudos sobre o magnetismo solar para identificar anomalias (outliers) que possam afetar redes elétricas, satélites, telecomunicações, aviação e GPS a partir de dados que são coletados do DSCOVR (Deep Space Climate Observatory) que está no Point 1 de Lagrange (entre o sol e nosso planeta)."
+            downloadLink="https://drive.google.com/file/d/1sf8cKaGx9uCvJ9SUKB27tfym-YCrV65e/view?usp=sharing"
+          />
           <ResumeCardImg
             title=" NASA - International Space Apps Challenge"
             img={nasa}
