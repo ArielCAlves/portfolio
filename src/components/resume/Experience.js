@@ -12,11 +12,11 @@ const Experience = () => {
       <div>       
         <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">          
         <ResumeCard
-            title="Cientista de Dados | Consultor de BI"
-            subTitle="Autônomo"
-            result="2022-Atual"
-            des="Atua com transformação de dados em seu estado mais bruto (estruturados e não-estruturados) vindos de diversas fontes para transformá-los em inteligência de negócio. Além da construção de modelos de Machine Learning para classificação (se o cliente vai comprar ou não e quais os principais fatores), previsão de receita/demanda, segmentação de clientes/produtos, otimizações de mix de produtos e avaliações das principais métricas."
-          />
+            title="Analista de Inteligência"
+            subTitle="Daniel Law"
+            result="2023-Atual"
+            des="Atua com pesquisa de mercado, análise e construção de modelos de machine learning voltados para prospecção e retenção de clientes na área de propriedade intelectual no Brasil e no mundo."
+          />        
           <ResumeCard
             title="Analista de Dados"
             subTitle="Nelogica Sistemas de Software"
@@ -39,6 +39,12 @@ const Experience = () => {
       </div>
       <div>
         <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+            title="Cientista de Dados | Consultor de BI"
+            subTitle="Autônomo"
+            result="2022-Atual"
+            des="Atua com transformação de dados em seu estado mais bruto (estruturados e não-estruturados) vindos de diversas fontes para transformá-los em inteligência de negócio. Além da construção de modelos de Machine Learning para classificação (se o cliente vai comprar ou não e quais os principais fatores), previsão de receita/demanda, segmentação de clientes/produtos, otimizações de mix de produtos e avaliações das principais métricas."
+          />
         <ResumeCard
             title="Cientista de Dados"
             subTitle="AppIA"
