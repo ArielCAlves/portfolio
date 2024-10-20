@@ -15,7 +15,7 @@ const Experience = () => {
             title="Analista de Inteligência"
             subTitle="Daniel Law"
             result="2023-Atual"
-            des="Atua com pesquisa de mercado, análise e construção de modelos de machine learning voltados para prospecção e retenção de clientes na área de propriedade intelectual no Brasil e no mundo."
+            des="Atua na construção de modelos preditivos e estatísticos, utilizando pesquisa acadêmica e artigos científicos para embasar o desenvolvimento de soluções. Tem experiência em previsão de séries temporais (forecast), modelagem de churn para retenção de clientes, prospecção de novos mercados, e segmentação de clientes. Implementa modelos em produção com MLOps, desenvolve feature stores, e realiza análise econômica, com foco no setor de propriedade intelectual no Brasil e no mundo."
           />        
           <ResumeCard
             title="Analista de Dados"
