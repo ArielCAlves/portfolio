@@ -47,7 +47,7 @@ const ContactLeft = () => {
             <FaLinkedinIn /></a>
           </span>   
           <span className="bannerIcon">
-          <a href="https://www.youtube.com/channel/UCkHdFEAJNBovWDkxbPbsuAg" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@arielcarvalhodados" target="_blank" rel="noopener noreferrer">
             <SiYoutube /></a>
           </span>  
           <span className="bannerIcon">
