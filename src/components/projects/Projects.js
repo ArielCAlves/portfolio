@@ -8,7 +8,8 @@ import { projectOne,
   projectSix,
   projectSeven,
   projectEight,
-  projectNine} from "../../assets/index";
+  projectNine,
+  thumbnail} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -24,6 +25,13 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard
+          title="10 Estudos de Caso"
+          des="Playlist disponibilizada no meu canal do Youtube com 10 Cases envolvendo Lógica de Programação de forma lúdica, IA Generativa, LLM, NLP, Machine Learning Tradicional (Supervisionado x Não-Supervisionado), Séries Temporais, Reinforcement Learning, entre outros."
+          src={thumbnail}          
+          websiteLink="https://github.com/ArielCAlves/cases_playlist"
+          youtubeLink="https://www.youtube.com/watch?v=9icDwGWky3g&list=PL2bxdM-kfRzXL64od_PBC9B16qnKrI2-8"
+        />
       <ProjectsCard
           title="Previsão de Séries Temporais com Sazonalidade"
           des="Utilizei dados abertos do Tesouro Nacional para prever Despesas de Custeio de Órgãos Públicos com os algoritmos Sarima e Redes Neurais LSTM (Long Short-Term Memory). A exploração inicial dos dados foi feita no notebook do Sarima, onde identifiquei as principais características antes de construir as análises que também serviram de base para construção da arquitetura da Rede Neural."

@@ -11,11 +11,11 @@ const Experience = () => {
     >
       <div>       
       <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full mb-22 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">          
-        <ResumeCard
-            title="Cientista de Dados"
-            subTitle="Daniel Law"
-            result="2023-Atual"
-            des="Atua na construção de modelos preditivos e estatísticos avançados, fundamentados em pesquisa acadêmica e literatura científica especializada. Desenvolveu projetos de previsão de séries temporais que aumentaram a precisão das projeções financeiras, modelos de churn que reduziram significativamente a perda de clientes, segmentação avançada que ampliou oportunidades de negócio, e análises de mercado que impulsionaram estratégias bem- sucedidas de expansão. Implementa modelos em produção utilizando práticas de MLOps, desenvolve Feature Stores e conduz análises econômicas especializadas no setor de propriedade intelectual, com abrangência nacional e internacional. Além disso, constrói agentes inteligentes com uso de LLMs e outras arquiteturas Transformers, otimizando processos internos e aprimorando a qualidade das decisões estratégicas."
+          <ResumeCard
+            title="Cientista de Dados Sênior"
+            subTitle="Instituto Atlântico"
+            result="2025-Atual"
+            des="Atua na construção de agentes autônomos com modelos LLM utilizando estratégias de fine tuning, RAG e variações. Constrói aplicações multi agents capazes de apontar a fonte de cada resposta ajudando na rastreabilidade e melhoria contínua com Reinforcement Learning para solucionar problemas de negócios. Também atua com pesquisas e produtização dos papers científicos em aplicações corporativas robustas."
           />        
           <ResumeCard
             title="Cientista de Dados"
@@ -51,12 +51,18 @@ const Experience = () => {
       </div>
       <div>
         <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-        <ResumeCard
+           <ResumeCard
             title="Consultor de IA"
             subTitle="Consultoria"
             result="2022-Atual"
             des="Atua na transformação de dados brutos, estruturados e não estruturados, em insights estratégicos. Desenvolve modelos de Machine Learning para previsão de demanda, análise de propensão de clientes (churn e conversão), segmentação avançada, otimização de portfólio de produtos e avaliação detalhada das principais métricas de negócio, apoiando decisões comerciais assertivas e otimizando resultados operacionais."
           />
+           <ResumeCard
+            title="Cientista de Dados"
+            subTitle="Daniel Law"
+            result="2023-2025"
+            des="Atuou na construção de modelos preditivos e estatísticos avançados, fundamentados em pesquisa acadêmica e literatura científica especializada. Desenvolveu projetos de previsão de séries temporais que aumentaram a precisão das projeções financeiras, modelos de churn que reduziram significativamente a perda de clientes, segmentação avançada que ampliou oportunidades de negócio, e análises de mercado que impulsionaram estratégias bem- sucedidas de expansão. Implementaou modelos em produção utilizando práticas de MLOps, desenvolveu Feature Stores e conduziu análises econômicas especializadas no setor de propriedade intelectual, com abrangências nacional e internacional. Além disso, construiu agentes inteligentes com uso de LLMs e outros modelos com arquiteturas Transformers, otimizando processos internos e aprimorando a qualidade das decisões estratégicas."
+          /> 
         <ResumeCard
             title="Analista de Dados"
             subTitle="Nelogica Sistemas de Software"

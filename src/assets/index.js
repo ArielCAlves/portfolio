@@ -16,6 +16,7 @@ import nasa_2023 from "./images/infoComplementar/nasa_2023.png";
 import olimpiada from "./images/infoComplementar/olimpiada.jpg";
 import banner from "./images/infoComplementar/banner_canal.png";
 import duke_university from "./images/infoComplementar/duke_university.png";
+import thumbnail from "./images/projects/thumbnail_playlist.jpg";
 
 export {
   logo,
@@ -36,4 +37,5 @@ export {
   olimpiada,
   banner,
   duke_university,
+  thumbnail,
 };
