@@ -4,7 +4,11 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Engenheiro de Software.", "Estatístico.", "Cientista de Dados.","Engenheiro de IA.","Consultor.", "Solucionador de Problemas de Negócios.", "Escritor nas horas vagas", "Aspirante à Palestrante."],
+      words: ["Data Scientist.",
+              "Marketing & Revenue Scientist.",
+              "Applied AI Specialist.", 
+              "Analytics & Growth Strategist.",
+              "Problem Solver."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,

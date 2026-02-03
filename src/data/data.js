@@ -1,64 +1,56 @@
-import { AiOutlineLineChart  } from "react-icons/ai";
-import { FaBrain, FaDatabase } from "react-icons/fa";
-import { SiProgress} from "react-icons/si";
-import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+import { AiOutlineLineChart } from "react-icons/ai";
+import { FaBrain, FaDatabase, FaSearch } from "react-icons/fa";
+import { SiProgress } from "react-icons/si";
 import { GiArtificialIntelligence, GiMagnifyingGlass } from "react-icons/gi";
-import { BsCardImage } from "react-icons/bs";
+import { BsBarChart } from "react-icons/bs";
 
 export const featuresData = [
-  {
-    id: 1,   
-    icon: <AiOutlineLineChart />,
-    title: "Forecasting | Séries Temporais",
-    des: "Previsão de demanda. Previsão de preço de commodities.",
-  },
-  {
-    id: 2,
-    icon: <CgWebsite />,
-    title: "Análise de Decisão",
-    des: "Análises quantitativa e qualitativa de dados, Teste A/B.",
-  },
-  {
-    id: 3,
-    icon: <SiProgress />,
-    title: "Queries Big Data e Interpretabilidade",
-    des: "Análises em tempo real. Manipulação de dados em ambientes distribuídos.",
-  },
-  {
-    id: 4,
-    icon: <FaDatabase />,
-    title: "Data Mining",
-    des: "Coleta de dados. Mineração. Webscraping. Técnicas de Associação.",
-  },
-  {
-    id: 5,
-    icon: <MdAnalytics />,
-    title: "KPI Dashboards",
-    des: "Construção de métricas efetivas relacionadas ao negócio e painéis executivos para auxiliar na tomada de decisões.",
-  },
-  {
-    id: 6,
-    icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Segmentação de clientes. Previsão de Churn. Previsão de Turnover. Precificação. Sistema de Recomendação.",
-  },
-  {
-    id: 7,
-    icon: <GiArtificialIntelligence />,
-    title: "NLP | LLM | RAG | LangChain",
-    des: "Chatbots, extração de conhecimento e geração de respostas com LLMs e RAG pipelines.",
-  },
-  {
-    id: 8,
-    icon: <BsCardImage />,
-    title: "Visual Recognition",
-    des: "Reconhecimento de imagens, classificação visual e detecção de padrões em conteúdo multimídia.",
-  },
-  {
-    id: 9,
-    icon: <GiMagnifyingGlass />,
-    title: "Pesquisa e Relatórios",
-    des: "Análises técnicas aprofundadas, estudos de mercado e geração de relatórios orientados a insights.",
-  },
+ {
+  id: 1,
+  icon: <AiOutlineLineChart />,
+  title: "Forecasting | Séries Temporais",
+  des: "Modelos preditivos de demanda, vendas e sazonalidade para planejamento de marketing, estoque e receita."
+},
+{
+  id: 2,
+  icon: <SiProgress />,
+  title: "Personalização Data-Driven",
+  des: "Segmentação, testes A/B e análises comportamentais para personalizar jornadas, campanhas e maximizar conversão e retenção."
+},
+{
+  id: 3,
+  icon: <FaDatabase />,
+  title: "Big Data e Interpretabilidade",
+  des: "Processamento de grandes volumes de dados e explicabilidade de modelos para decisões confiáveis em marketing e negócio."
+},
+{
+  id: 4,
+  icon: <FaSearch />,
+  title: "Data Mining",
+  des: "Coleta, mineração e enriquecimento de dados para descoberta de padrões, oportunidades comerciais e inteligência de mercado."
+},
+{
+  id: 5,
+  icon: <FaBrain />,
+  title: "Machine Learning",
+  des: "Modelos de churn, propensão, recomendação e precificação para otimizar aquisição, retenção e crescimento de receita."
+},
+{
+  id: 6,
+  icon: <BsBarChart />,
+  title: "Marketing & Revenue Analytics",
+  des: "Análise orientada por dados para otimização de campanhas, segmentação de clientes, previsão de receita, churn, LTV e alocação eficiente de investimentos em marketing."
+},
+{
+  id: 7,
+  icon: <GiArtificialIntelligence />,
+  title: "NLP | LLM | RAG | FineTuning",
+  des: "Agentes e soluções com IA generativa para automação, extração de conhecimento, qualificação de leads e suporte inteligente à decisão."
+},
+{
+  id: 8,
+  icon: <GiMagnifyingGlass />,
+  title: "Pesquisa | Relatórios",
+  des: "Estudos analíticos, avaliações de mercado e relatórios executivos para suportar decisões estratégicas baseadas em evidências."
+}
 ];

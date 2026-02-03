@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -9,78 +9,94 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex flex-col gap-20 md:flex-row"
     >
-      <div>       
-      <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full mb-22 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">          
+      <div>
+        <div
+          style={{ textAlign: "justify", wordSpacing: "-1px" }}
+          className="mt-14 w-full mb-22 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"
+        >
           <ResumeCard
-            title="Cientista de Dados Sênior"
+            title="Senior Data Scientist - Applied AI & Research"
             subTitle="Instituto Atlântico"
             result="2025-Atual"
-            des="Atua na construção de agentes autônomos com modelos LLM utilizando estratégias de fine tuning, RAG e variações. Constrói aplicações multi agents capazes de apontar a fonte de cada resposta ajudando na rastreabilidade e melhoria contínua com Reinforcement Learning para solucionar problemas de negócios. Também atua com pesquisas e produtização dos papers científicos em aplicações corporativas robustas."
-          />        
-          <ResumeCard
-            title="Cientista de Dados"
-            subTitle="Appia"
-            result="Abril a Agosto de 2023"
-            des="Atuou no desenvolvimento de modelos para previsão de demanda, com foco em séries temporais, aplicando métodos avançados de estatística e econometria para previsão de demanda e precificação. Utilizou plenamente o poder computacional disponível em cada máquina, garantindo a escalabilidade, eficiência e alta disponibilidade dos modelos gerados."
+            des="Projeta e implementa agentes autônomos e soluções de IA generativa com LLMs, utilizando fine-tuning, RAG e sistemas multiagentes para automação de análise documental, pesquisa e geração de conhecimento com rastreabilidade. Converte pesquisas e papers científicos em soluções produtivas, avaliando viabilidade técnica e maturidade tecnológica (até TRL 6) para aplicações industriais. Desenvolve modelos de séries temporais e técnicas avançadas de Machine Learning aplicadas a desafios operacionais e estratégicos de clientes. Conduz iniciativas de P&D, governança e ética em IA, além de treinar e mentorar cientistas e equipes, disseminando boas práticas e elevando a maturidade analítica da organização."
           />
+
           <ResumeCard
-            title="Cientista de Dados"
-            subTitle="Verde Agritech"
-            result="2021 - 2022"
-            des="Atuou na coleta, tratamento e análise estratégica de dados provenientes de múltiplas bases, utilizando técnicas estatísticas avançadas aliadas ao profundo entendimento de negócio para geração de insights relevantes. Automatizou processos operacionais para otimizar recursos e desenvolveu um Data Lake integrado, possibilitando a centralização e disponibilização ágil de informações para tomadas de decisão. Foi responsável pela criação de modelos que segmentaram clientes de maneira precisa e identificaram fatores críticos associados à ocorrência de eventos, resultando em planos de ação eficazes e orientados por dados."
-          />     
-          <ResumeCard
-            title="Consultor de Dados"
-            subTitle="Consultoria"
-            result="2019-2021"
-            des="Auxiliou empresas na definição de KPIs, estruturação de pipelines de dados, desenvolvimento de dashboards e modelos preditivos, com foco em decisões orientadas por dados."
-          />    
-          <ResumeCard
-            title="Consultor de Negócios"
-            subTitle="Consultoria"
-            result="2012-2015"
-            des="Atuava na análise de desempenho e identificação de gargalos operacionais para apoiar decisões estratégicas. Contribuiu com o crescimento de pequenos e médios negócios por meio da otimização de processos e melhoria na gestão."
-          />  
-          <ResumeCard            
-            title="Estagiário"
-            subTitle="Procuradoria Federal - Advocacia Geral da União"
-            result="2010 - 2012"
-            des="Atuou no setor de Execução Fiscal, utilizando sistemas do Banco Central e da Receita Federal para cumprimento de decisões judiciais. Contribuiu para a transformação digital do setor, aprimorando a organização de planilhas, automatizando processos e realizando análises processuais para otimizar a gestão de dados e a eficiência operacional."
-          />       
-        </div>     
-      </div>
-      <div>
-        <div style={{ textAlign: 'justify', wordSpacing: '-1px' }} className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-           <ResumeCard
-            title="Consultor de IA"
-            subTitle="Consultoria"
-            result="2022-Atual"
-            des="Atua na transformação de dados brutos, estruturados e não estruturados, em insights estratégicos. Desenvolve modelos de Machine Learning para previsão de demanda, análise de propensão de clientes (churn e conversão), segmentação avançada, otimização de portfólio de produtos e avaliação detalhada das principais métricas de negócio, apoiando decisões comerciais assertivas e otimizando resultados operacionais."
-          />
-           <ResumeCard
-            title="Cientista de Dados"
+            title="Marketing & Revenue Data Scientist"
             subTitle="Daniel Law"
-            result="2023-2025"
-            des="Atuou na construção de modelos preditivos e estatísticos avançados, fundamentados em pesquisa acadêmica e literatura científica especializada. Desenvolveu projetos de previsão de séries temporais que aumentaram a precisão das projeções financeiras, modelos de churn que reduziram significativamente a perda de clientes, segmentação avançada que ampliou oportunidades de negócio, e análises de mercado que impulsionaram estratégias bem- sucedidas de expansão. Implementaou modelos em produção utilizando práticas de MLOps, desenvolveu Feature Stores e conduziu análises econômicas especializadas no setor de propriedade intelectual, com abrangências nacional e internacional. Além disso, construiu agentes inteligentes com uso de LLMs e outros modelos com arquiteturas Transformers, otimizando processos internos e aprimorando a qualidade das decisões estratégicas."
-          /> 
-        <ResumeCard
-            title="Analista de Dados"
+            result="2023 - 2025"
+            des="Desenvolveu modelos preditivos e estatísticos para marketing, receita e expansão de mercado, incluindo séries temporais, churn e segmentação de clientes. Conduziu análises de mercado e implantou soluções em produção com MLOps e Feature Stores, garantindo escalabilidade e confiabilidade dos modelos. Também construiu agentes inteligentes com LLMs baseados em Transformers para automatizar processos e apoiar decisões estratégicas de clientes nacionais e internacionais."
+          />
+
+          <ResumeCard
+            title="Data Analyst"
             subTitle="Nelogica Sistemas de Software"
             result="2022 - 2023"
-            des="Atuou na coleta, limpeza e análise de dados provenientes de múltiplas fontes, transformando- os em insights estratégicos. Desenvolveu modelos preditivos utilizando algoritmos avançados de Machine Learning com o objetivo de aprimorar significativamente a qualidade da experiência do cliente. Construiu soluções capazes de prever comportamentos, antecipar demandas e personalizar interações, além de implementar dashboards e análises que apoiaram decisões estratégicas por meio da exploração eficiente dos dados disponíveis."
-          />          
-          <ResumeCard            
-            title="Engenheiro de Software"
-            subTitle="Lym Tech"
-            result="Março a Julho de 2021"
-            des="Automatizou processos e contribuiu para o desenvolvimento de uma plataforma integrada de CRM e ERP, otimizando a gestão e a centralização de dados. Atuou na detecção de fraudes, utilizando ferramentas avançadas para consultas em bases de dados, aplicando algoritmos robustos e análises estatísticas para identificar padrões suspeitos e mitigar riscos."
+            des="Conduziu coleta, preparação e consolidação de dados de múltiplas fontes, garantindo qualidade das informações. Desenvolveu dashboards executivos e análises de desempenho para monitorar indicadores de atendimento e experiência do cliente. Aplicou modelos preditivos para antecipar comportamentos, priorizar demandas e apoiar ações de retenção e personalização."
           />
+
+          <ResumeCard
+            title="Marketing & Revenue Data Scientist"
+            subTitle="Consultoria"
+            result="2019 - 2021"
+            des="Apoiou empresas na estruturação de estratégias de dados para marketing, vendas e receita, definindo KPIs e métricas de performance. Projetou pipelines e modelos analíticos para integração e governança da informação, além de desenvolver dashboards executivos e modelos preditivos de segmentação, priorização de oportunidades e maior previsibilidade de resultados."
+          />
+        
           <ResumeCard
             title="CTO"
             subTitle="Alves Consultoria Imobiliária"
-            result="2015-2019"
-            des="Atuou na captação e retenção de clientes por meio da análise de indicadores estratégicos para embasar a tomada de decisões. Desenvolveu modelos de negócios e prestou consultorias para agregar valor além da intermediação, criando diferenciais competitivos no mercado. Além disso, estabeleceu parcerias estratégicas com stakeholders nacionais e internacionais, fortalecendo a posição da empresa no setor."
-          />          
+            result="2015 - 2019"
+            des="Liderou a estratégia de crescimento com definição e acompanhamento de KPIs, métricas de mercado e decisões orientadas por dados para aquisição e retenção de clientes. Desenvolveu modelos de negócio e processos comerciais com análises estatísticas e modelos preditivos de precificação e segmentação, aumentando previsibilidade de receita e competitividade. Estabeleceu parcerias nacionais e internacionais, integrando tecnologia, dados e operação para escalar a atuação no setor imobiliário."
+          />
+
+          <ResumeCard
+            title="Estagiário"
+            subTitle="Procuradoria Federal - AGU"
+            result="2010 - 2012"
+            des="Operou sistemas do Banco Central e da Receita Federal para cumprimento de decisões judiciais, contribuindo para a transformação digital da área por meio da organização de dados, automação de processos e maior precisão das informações."
+          />
+        </div>
+      </div>
+
+      <div>
+        <div
+          style={{ textAlign: "justify", wordSpacing: "-1px" }}
+          className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"
+        >
+          <ResumeCard
+            title="AI & Marketing Data Scientist"
+            subTitle="Consultoria"
+            result="2022-Atual"
+            des="Transforma dados estruturados e não estruturados em inteligência para marketing, vendas e receita. Desenvolve modelos de Machine Learning para previsão de demanda, churn, conversão e segmentação, além de agentes baseados em LLMs para qualificação de leads e apoio à prospecção. Otimiza campanhas, investimentos e performance comercial, aumentando eficiência e previsibilidade de resultados."
+          />
+
+          <ResumeCard
+            title="Data Scientist"
+            subTitle="Appia"
+            result="Abril a Agosto - 2023"
+            des="Desenvolveu modelos de previsão de demanda com séries temporais e econometria para estimar vendas e sazonalidade. As análises orientaram decisões de trade marketing, reposição e distribuição, aumentando a acurácia das projeções, reduzindo rupturas e excessos e elevando a previsibilidade de vendas."
+          />
+          
+          <ResumeCard
+            title="Data Scientist"
+            subTitle="Verde Agritech"
+            result="2021 - 2022"
+            des="Conduziu coleta, tratamento e análise de dados de marketing e vendas, aplicando estatística e modelagem preditiva para decisões orientadas por dados. Estruturou pipelines automatizados e um Data Lake para centralização e escalabilidade das informações. Desenvolveu modelos de segmentação, propensão, recompra e churn para qualificação de leads, personalização de campanhas e pós-venda, aumentando conversão, retenção e previsibilidade de receita."
+          />
+
+          <ResumeCard
+            title="Solution Engineer"
+            subTitle="Lym Tech"
+            result="Março a Julho - 2021"
+            des="Automatizou processos e desenvolveu integrações para plataforma unificada de CRM e ERP, estruturando fluxos e governança de dados para centralização e confiabilidade das informações de clientes. Organizou dados para apoiar gestão do funil, acompanhamento de leads e maior visibilidade das operações comerciais."
+          />
+
+          <ResumeCard
+            title="Business Analyst"
+            subTitle="Consultoria"
+            result="2012 - 2015"
+            des="Analisava desempenho operacional e identificava gargalos com base em indicadores e dados de negócio, apoiando decisões estratégicas. Estruturava e aprimorava processos de gestão para PMEs, aumentando controle, organização das informações e sustentando o crescimento."
+          />
         </div>
       </div>
     </motion.div>
